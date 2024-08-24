@@ -16,7 +16,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-model_path = r"C:\Users\Aakash\Downloads\llama-7b.ggmlv3.q4_1.bin"
+model_path = r"E:\Trabago\ProjectsDev\mindpalace.io\backend\models\llama-7b.ggmlv3.q8_0.bin"
 llm = Llama(model_path=model_path)
 
 class InferenceRequest(BaseModel):
